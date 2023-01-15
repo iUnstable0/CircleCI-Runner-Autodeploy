@@ -141,6 +141,7 @@ To remove runners from your server
 ```bash
 sudo systemctl stop YOUR_RUNNER_USERNAME.service
 sudo systemctl disable YOUR_RUNNER_USERNAME.service
+rm -rf /usr/lib/systemd/system/YOUR_RUNNER_USERNAME.service
 sudo rm -rf /var/opt/YOUR_RUNNER_USERNAME /opt/YOUR_RUNNER_USERNAME /etc/opt/YOUR_RUNNER_USERNAME /usr/lib/systemd/system/YOUR_RUNNER_USERNAME.service
 sudo userdel -r YOUR_RUNNER_USERNAME
 ```
