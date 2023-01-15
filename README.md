@@ -74,7 +74,7 @@ omg fr
 
 Thank god
 
-## I've finished installing, what now?
+## but... I've finished installing, what now?
 
 The config file is at
 /etc/opt/YOUR_RUNNER_USERNAME/launch-agent-config.yaml
