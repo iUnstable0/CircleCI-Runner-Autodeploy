@@ -76,11 +76,18 @@ Thank god
 
 ## but... I've finished installing, what now?
 
+Replace YOUR_RUNNER_USERNAME with the runner username u chose when installing
+(RUNNER USERNAME AND RUNNER NAME IS DIFFERENT, DON'T GET CONFUSED)
+
 The config file is at
-/etc/opt/YOUR_RUNNER_USERNAME/launch-agent-config.yaml
+`/etc/opt/YOUR_RUNNER_USERNAME/launch-agent-config.yaml`
 
 to disable/enable cleanup working directory after job finished
 or change work directory, you need to edit the config file
+
+NOTE: you need to restart the runner after you edit the config file
+
+read below for restart instructions
 
 You can check the status of your runner by running
 
