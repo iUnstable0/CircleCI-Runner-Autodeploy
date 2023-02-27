@@ -152,7 +152,7 @@ echo ""
 id -u $username &>/dev/null || sudo adduser --disabled-password --gecos GECOS $username
 sudo mkdir -p /var/opt/$username
 sudo chmod 0750 /var/opt/$username
-sudo chown -R $username /var/opt/$username /opt/$username/circleci-launch-agent
+sudo chown -R $username /var/opt/$username /opt/$username
 
 echo ""
 echo -e "\033[0;34mCreating CircleCI runner configuration...\033[0m"
