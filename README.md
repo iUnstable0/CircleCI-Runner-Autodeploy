@@ -1,5 +1,7 @@
 # CircleCI-Runner-Autodeploy
 
+# NOTES: I'm no longer maintaining this as i've moved to Jenkins instead coz theres an issue with circleci if you're building multiple projects at the same time (/tmp permission error)
+
 This script is for my personal use, therefore I've only added support for Ubuntu/Debian. If you want CentOS/RHEL, let me know and I'll add it. Alternatively, you can add it yourself and make a PR.
 
 ## What is this for?
